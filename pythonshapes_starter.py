@@ -1,5 +1,6 @@
 from turtle import *
 import math
+import time
 
 # Name your Turtle.
 t = Turtle()
@@ -28,6 +29,7 @@ end_fill()
 penup()
 
 reset()
+time.sleep(2)
 begin_fill()
 pendown()
 for i in range(3):
